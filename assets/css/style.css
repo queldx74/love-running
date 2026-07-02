@@ -1,0 +1,17 @@
+/* header */
+header {
+    background-color: lightcoral
+}
+
+/* main content */
+main {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* footer */
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
