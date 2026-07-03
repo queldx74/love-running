@@ -22,7 +22,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*general styles */
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /*generic project styles*/
+  color: #3a3a3a;
+}
 /* header */
 header {
   background-color: lightcoral;
@@ -32,7 +39,7 @@ header {
 main {
   background-color: lightblue;
   padding: 20px;
-  
+
 }
 
 /* footer */
