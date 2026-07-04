@@ -97,7 +97,7 @@ nav {
 main {
   background-color: lightblue;
   flex: 1 0 auto;
-  margin-top: 47px;
+  */ margin-top: 47px; */
 
 }
 
@@ -106,4 +106,35 @@ footer {
   background-color: orange;
   text-align: center;
   padding: 10px;
+}
+.nav-toggle-label {
+        display: none;
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) 
+    /* Header */
+    
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    
+    #menu {
+        display: flex;
+            }
+#menu > li {
+    pading-left: 1rem;
+}
+
+.nav-toggle-label {
+        display: none;
+}
+
+#logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
 }
