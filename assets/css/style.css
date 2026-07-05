@@ -1,20 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-
-
-
-
-
-
 .lato-light {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-
-
-
-
 
 /*Asterisk wildcard selector to override standard browser styles*/
 * {
@@ -35,115 +25,118 @@ body {
 header {
   background-color: #ffffff;
   padding: 0 1rem;
-   z-index: 99; 
+  z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
   justify-content: space-between;
-  align-items:baseline;
+  align-items: baseline;
 }
 header a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 h1 {
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
 }
-#menu >li {
-    margin-bottom: 1em;
+#menu > li {
+  margin-bottom: 1em;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
 }
 /* Nav toggle checkbox styles */
-   #nav-toggle:checked~nav {
-   display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
-   #nav-toggle {
-    display: none;
-    }
-    .nav-toggle-label {
-        font-size: 2rem;
-         cursor: pointer;
+#nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  font-size: 2rem;
+  cursor: pointer;
   position: absolute;
   right: 1rem;
   top: 1rem;
   z-index: 1000;
-
-    }
-    /* main content */
+}
+/* main content */
 main {
   background-color: lightblue;
   flex: 1 0 auto;
-  margin-top: 47px; 
-
+  margin-top: 47px;
 }
 
 /* footer */
-footer {
-  background-color: orange;
-  text-align: center;
-  padding: 10px;
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+  /* Header */
+
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 }
-    
-    
+
 #menu > li {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
-
-
-
 
 #logo {
-    font-size: 200%;
-    line-height: 75px;
-    margin: 0 0.5rem;
+  font-size: 200%;
+  line-height: 75px;
+  margin: 0 0.5rem;
 }
 /*main content */
 main {
-
-
-/* Push main content down to accommodate the larger header */
-margin-top: 79px;
+  /* Push main content down to accommodate the larger header */
+  margin-top: 79px;
 }
-*/Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
+*/Large
+  devices
+  (laptops/desktops, 992px and up)
+  */
+  @media
+  screen
+  and
+  (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
 }
