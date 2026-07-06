@@ -83,16 +83,15 @@ nav {
     cursor: pointer;
 }
 main {
-    flex: 1;
-    padding: 2rem;
-    background: #f5f5f5;
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../css/images/hero-image.webp") no-repeat center center/cover;
 }
 
 
